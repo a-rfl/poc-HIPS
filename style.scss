@@ -1,0 +1,40 @@
+// @import "@fortawesome/fontawesome-free/css/all.css";
+// @import "node_modules/bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.perso {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: burlywood;
+}
+.finish-line {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 500px;
+  background-color: darkcyan;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 25%;
+  height: 100px;
+  background-color: darkorange;
+  text-align: center;
+  line-height: 70px;
+}
